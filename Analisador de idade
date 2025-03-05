@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+    alert("Olá, seja bem-vindo ao analisador de idade!");
+
+    var nome= prompt("Digite o seu nome");
+    var anoAtual= +prompt('Digite o ano atual');
+    var anoNascimento= +prompt('Digite o ano do seu nascimento');
+    var idade= anoAtual - anoNascimento;
+
+    var idade= (anoAtual - anoNascimento)
+
+    if (idade > 18){
+        alert("Você é maior de idade");
+    } else if (idade < 18){
+        alert("Você é menor de idade");
+    } else {
+        alert("Você tem 18 anos");
+    }
+
+</script>
